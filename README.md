@@ -6,7 +6,15 @@
 ![image](https://user-images.githubusercontent.com/36766101/156080689-8e5639b4-9538-4574-80d5-3d689812800f.png)
 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
+
+
 get-packageprovider
+
+
+
 install-module -Name pswindowsupdate
+
+
+
 get-wuhistory
 
